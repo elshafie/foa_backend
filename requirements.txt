@@ -1,0 +1,8 @@
+npm i express cors mongoose dotenv mongodb
+
+npm i ts-node nodemon typescript @types/express @types/node @types/cors
+
+npx tsx --init
+
+npm i express-oauth2-jwt-bearer
+
