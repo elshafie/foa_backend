@@ -1,5 +1,6 @@
 .env
-requirements.txt
+notes.txt
+
 
 dist/
 node_modules
