@@ -30,6 +30,6 @@ app.use(jwtCheck);
 app.use("/api/user", usersRoute)
 app.use("/api/restaurant", myRestaurantRoute);
 
-app.listen(7000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server is running on port 7000")
 })
