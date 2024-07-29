@@ -1,4 +1,4 @@
-import express, {Response, Request} from "express"
+import express from "express"
 import cors from "cors"
 import "dotenv/config"
 import mongoose from "mongoose"
@@ -31,5 +31,5 @@ app.use("/api/user", usersRoute)
 app.use("/api/restaurant", myRestaurantRoute);
 
 app.listen(process.env.PORT, () => {
-  console.log("Server is running on port 7000")
+  console.log("Server is running")
 })
