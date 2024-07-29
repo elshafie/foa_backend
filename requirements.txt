@@ -6,3 +6,7 @@ npx tsx --init
 
 npm i express-oauth2-jwt-bearer
 
+npm i cloudinary
+
+npm i @types/multer
+
