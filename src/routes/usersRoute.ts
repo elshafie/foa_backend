@@ -2,7 +2,7 @@
 import { Router } from 'express';
 import userController from '../controllers/userController';
 import { jwtCheck, jwtParse } from '../middleware/auth';
-import {  validateUserRequest } from '../middleware/validation';
+import {  validateMyUserRequest } from '../middleware/validation';
 
 const router = Router()
 
@@ -19,7 +19,7 @@ router.put(
   "/",
   jwtCheck,
   jwtParse,
-  validateUserRequest,
+  validateMyUserRequest,
   userController.updateUser
 );
 
