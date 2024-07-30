@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "npm install && npx tsc",
-    "start": "node dist/index.js"
+    "start": "node /vercel/output/index.js"
   },
   "keywords": [],
   "author": "",
